@@ -16,7 +16,7 @@ const Hero = (props) => (
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = '/files/ParhamJavadi-Resume.pdf';
+          window.location.href = 'https://drive.google.com/file/d/1_F0rHecBE_l1tv6JbQq-xhFgCEEfz5FB/view?usp=sharing';
         }}>My Resume</Button>
       </LeftSection>
     </Section>
