@@ -7,9 +7,6 @@ const Technologies = () => (
   <Section id="skills">
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
-    <SectionText>
-      I've worked with multiple technologies as a developer to develop & maintain my projects.
-    </SectionText>
     <List>
       {Skills.map((Skill) => (
         <ListItem key={Skill.slug}>
@@ -19,7 +16,6 @@ const Technologies = () => (
           <ListContainer>
             <ListTitle>{Skill.title}</ListTitle>
             <ListParagraph>
-              <Skill.Description />
             </ListParagraph>
           </ListContainer>
         </ListItem>

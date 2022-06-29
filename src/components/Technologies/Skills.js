@@ -1,42 +1,41 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
+import { DiRuby, DiJavascript1, DiTerminal } from "react-icons/di";
+import { RiVuejsLine } from "react-icons/ri";
+import { SiGit, SiMysql, SiJenkins  } from "react-icons/si";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    slug: "Ruby on Rails",
+    Component: DiRuby,
+    title: "Ruby on Rails",
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    slug: "Javascript",
+    Component: DiJavascript1,
+    title: "Javascript",
   },
   {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
+    slug: "Vue.js",
+    Component: RiVuejsLine,
+    title: "Vue.js",
+  },
+  {
+    slug: "MySQL",
+    Component: SiMysql,
+    title: "MySQL",
   },
   {
     slug: "terminal",
     Component: DiTerminal,
     title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
-  },
-  {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
   },
   {
     slug: "git",
     Component: SiGit,
     title: "Git",
-    Description: () => <>Git is a tool that I use every day. I use GitHub for pushing my code.</>,
+  },
+  {
+    slug: "Jenkins",
+    Component: SiJenkins ,
+    title: "Jenkins",
   },
 ];
