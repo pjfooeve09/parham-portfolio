@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail} from 'react-icons/ai';
 import { Link } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -20,6 +20,9 @@ const Footer = () => {
           <Slogan>&copy; 2022 <Link href="https://pjfooeve09.github.io/">  Parham Javadi</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
+        <SocialIcons href="mailto:pjfooeve09@yahoo.com">
+        <AiOutlineMail size="3rem" />
+      </SocialIcons>
           <SocialIcons href="https://github.com/pjfooeve09">
             <AiFillGithub size="3rem" />
           </SocialIcons>
