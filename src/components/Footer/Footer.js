@@ -17,7 +17,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2022 <Link href="https://pjfooeve09.github.io/">  Parham Javadi</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2022 <Link href="https://pjfooeve09.github.io/parham-portfolio">  Parham Javadi</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="mailto:pjfooeve09@yahoo.com">
