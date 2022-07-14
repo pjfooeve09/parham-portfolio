@@ -28,7 +28,9 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
+              {p.visit !== "" && (
               <ExternalLinks href={p.visit}>Project Video</ExternalLinks>
+                )}
               <ExternalLinks href={p.source}>Source Code</ExternalLinks>
             </UtilityList>
           </BlogCard>
