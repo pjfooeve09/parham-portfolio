@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "gh-pages":  "gh-pages --dist '.' --src '{index.js,dist/**,CNAME}'",
     "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
