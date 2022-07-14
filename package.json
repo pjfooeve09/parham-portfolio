@@ -4,12 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "next start",
-    "build": "next build ",
-    "test": "next test",
-    "eject": "next eject"
+    "build": "next build "
   },
   "dependencies": {
     "next": "10.2.3",
