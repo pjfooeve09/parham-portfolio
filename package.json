@@ -7,7 +7,6 @@
     "dev": "next dev",
     "start": "next start",
     "build": "next build ",
-    "export": "next export",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
