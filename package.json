@@ -4,11 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "start": "next start",
-    "build": "next build ",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "react scripts start",
+    "build": "react-scripts build ",
+    "test" : "react-scripts test",
+    "eject" : "react-scripts eject",
+    "dev": "next dev"
   },
   "dependencies": {
     "next": "10.2.3",
