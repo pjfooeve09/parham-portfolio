@@ -14,11 +14,9 @@ const Hero = (props) => (
         <SectionText>
           My name is Parham Javadi and I am a Full Stack Software Developer.
         </SectionText>
-        <Link href="https://drive.google.com/file/d/1_F0rHecBE_l1tv6JbQq-xhFgCEEfz5FB/view?usp=sharing" target="_blank">
-        <a style={{ display: 'flex', color: "blue", fontSize: 30}}>
-          My Resume
-        </a>
-      </Link>
+        <Link href="https://drive.google.com/file/d/1_F0rHecBE_l1tv6JbQq-xhFgCEEfz5FB/view?usp=sharing" target="_blank"> 
+          My Resume 
+        </Link>
       </LeftSection>
     </Section>
   </>
