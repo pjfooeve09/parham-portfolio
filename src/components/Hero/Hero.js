@@ -15,7 +15,7 @@ const Hero = (props) => (
           My name is Parham Javadi and I am a Full Stack Software Developer.
         </SectionText>
         <Link href="https://drive.google.com/file/d/1_F0rHecBE_l1tv6JbQq-xhFgCEEfz5FB/view?usp=sharing" target="_blank"> 
-          My Resumeeeeee
+          <h1>My Resume</h1>
         </Link>
       </LeftSection>
     </Section>
