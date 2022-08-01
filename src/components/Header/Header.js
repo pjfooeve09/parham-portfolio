@@ -2,31 +2,27 @@
 import {  Link } from '../../styles/GlobalComponents';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, h2, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, h1, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <span style={{ marginLeft: -10, marginTop: 25.5, fontSize: 20 }} >Parham Javadi</span>
-        </a>
-      </Link>
+     
     </Div1>
     <Div2>
       <li>
         <Link href="#projects">
-          <h2 style={{cursor: 'pointer', color: '#F0FFFF'}}>Projects</h2>
+          <h1 style={{cursor: 'pointer', color: '#F0FFFF', marginLeft: -140}}>Projects</h1>
         </Link>
       </li>
       <li>
         <Link href="#skills">
-          <h2 style={{cursor: 'pointer', color: '#F0FFFF'}}>Skills</h2>
+          <h1 style={{cursor: 'pointer', color: '#F0FFFF', marginRight: 70}}>Skills</h1>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <h2 style={{cursor: 'pointer', color: '#F0FFFF'}}>About</h2>
+          <h1 style={{cursor: 'pointer', color: '#F0FFFF'}}>About</h1>
         </Link>
       </li>
     </Div2>
