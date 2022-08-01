@@ -1,9 +1,9 @@
 export const projects = [
 
   {
-    title: 'Delicious Recipe',
+    title: 'Recipe Finder',
     description: "This App allows users to browse through popular and vegetarian recipes. In addition, they can search for a recipe and open a list of recipes based on the recipe category. Instructions and ingredients will be displayed to the user for each recipe.",
-    image: 'images/recipe.jpg',
+    image: 'images/recipe3.jpg',
     tags: ['React'],
     source: 'https://github.com/pjfooeve09/delicious-recipe',
     visit: 'https://www.youtube.com/watch?v=wUVeY8Rnl84&ab_channel=papar24',
@@ -20,22 +20,22 @@ export const projects = [
   },
   {
     title: 'Superhero World',
-    description: 'This MVC Rails app allows users to create an account and login (as well as login with Facebook). The page "Team With the Most Superheroes" contains the team with the most superheroes that belong to the user who originally created the team.',
+    description: 'This MVC Rails app allows users to create an account and login (as well as login with Facebook). The user can then perform all the CRUD actions on a team with superheroes, and display the team with the most superheroes.',
     image: 'images/superhero.jpg',
     tags: ['Ruby on Rails'],
     source: 'https://github.com/pjfooeve09/superhero_world',
     visit: 'https://www.youtube.com/watch?v=PUwQas-QoHI&ab_channel=papar24',
     id: 3,
   },
-  {
-    title: 'Sinatra Hospital Maker',
-    description: "This MVC Sinatra application allows users to create signup and login to their account. Once logged in, the user can create a hospital based on hospital's name and hospital's country and can also view a list of all the hospitals created. Once a hospital is added, it can only be edited and deleted by the user who originally added the hospital.",
-    image: 'images/sinatrahospital.jpg',
-    tags: ['Sinatra (Ruby)'],
-    source: 'https://github.com/pjfooeve09/sinatra-hospital-maker',
-    visit: 'https://www.youtube.com/watch?v=FxAuq6qN0nI&t=121s&ab_channel=ParhamJavadi',
-    id: 5,
-  },
+  // {
+  //   title: 'Sinatra Hospital Maker',
+  //   description: "This MVC Sinatra application allows users to create signup and login to their account. Once logged in, the user can create a hospital based on hospital's name and hospital's country and can also view a list of all the hospitals created. Once a hospital is added, it can only be edited and deleted by the user who originally added the hospital.",
+  //   image: 'images/sinatrahospital.jpg',
+  //   tags: ['Sinatra (Ruby)'],
+  //   source: 'https://github.com/pjfooeve09/sinatra-hospital-maker',
+  //   visit: 'https://www.youtube.com/watch?v=FxAuq6qN0nI&t=121s&ab_channel=ParhamJavadi',
+  //   id: 5,
+  // },
   {
     title: 'Task Tracker',
     description: "This Vue.js app allows users to create, view, edit, and delete a task. It is similar to the To Do List app, but contains additional features such as a reminder.",
