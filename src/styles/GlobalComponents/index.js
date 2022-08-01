@@ -281,6 +281,7 @@ export const LinkIconImg = styled.div`
 `
 
 export const Link = styled.a`
-  color: ${(props) => props.theme.colors.link}
+  color: ${(props) => props.theme.colors.link};
+  margin: 2.7rem
 `;
 
