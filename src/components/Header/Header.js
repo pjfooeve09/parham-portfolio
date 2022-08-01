@@ -1,4 +1,5 @@
-import Link from 'next/link';
+// import Link from 'next/link';
+import {  Link } from '../../styles/GlobalComponents';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, h2, SocialIcons } from './HeaderStyles';
@@ -15,17 +16,17 @@ const Header = () => (
     <Div2>
       <li>
         <Link href="#projects">
-          <h2 style={{cursor: 'pointer'}}>Projects</h2>
+          <h2 style={{cursor: 'pointer', color: 'white'}}>Projects</h2>
         </Link>
       </li>
       <li>
         <Link href="#skills">
-          <h2 style={{cursor: 'pointer'}}>Skills</h2>
+          <h2 style={{cursor: 'pointer', color: 'white'}}>Skills</h2>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <h2 style={{cursor: 'pointer'}}>About</h2>
+          <h2 style={{cursor: 'pointer', color: 'white'}}>About</h2>
         </Link>
       </li>
     </Div2>
