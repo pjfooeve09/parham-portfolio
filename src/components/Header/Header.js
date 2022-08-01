@@ -9,7 +9,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Parham Javadi</span>
+          <span style={{ marginLeft: -10, marginTop: 25.5, fontSize: 20 }} >Parham Javadi</span>
         </a>
       </Link>
     </Div1>
@@ -31,13 +31,13 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="mailto:pjfooeve09@yahoo.com">
+      <SocialIcons style={{marginTop: 15}} href="mailto:pjfooeve09@yahoo.com">
         <AiOutlineMail size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com/pjfooeve09">
+      <SocialIcons style={{marginTop: 15}} href="https://github.com/pjfooeve09">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/parham-javadi/">
+      <SocialIcons style={{marginTop: 15}} href="https://www.linkedin.com/in/parham-javadi/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>
