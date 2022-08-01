@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, h2, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <Container>
@@ -15,17 +15,17 @@ const Header = () => (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Projects</NavLink>
+          <h2 style={{cursor: 'pointer'}}>Projects</h2>
         </Link>
       </li>
       <li>
         <Link href="#skills">
-          <NavLink>Skills</NavLink>
+          <h2 style={{cursor: 'pointer'}}>Skills</h2>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink>About</NavLink>
+          <h2 style={{cursor: 'pointer'}}>About</h2>
         </Link>
       </li>
     </Div2>
