@@ -19,11 +19,6 @@ export const Skills = [
     title: "Vue.js",
   },
   {
-    slug: "MySQL",
-    Component: SiMysql,
-    title: "MySQL",
-  },
-  {
     slug: "terminal",
     Component: DiTerminal,
     title: "Scripting",
