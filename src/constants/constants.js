@@ -1,22 +1,21 @@
 export const projects = [
-
+  {
+    title: 'Realtor',
+    description: "this is a React real estate application that allows users to search for rental as well as sale properties, read the description and features such as amenities that each property offers, and use advanced filters to filter properties based on their needs.",
+    image: 'images/realtor.jpg',
+    tags: ['React', 'Next.js'],
+    source: 'https://github.com/pjfooeve09/realtor',
+    visit: '',
+    id: 2,
+  },
   {
     title: 'Recipe Finder',
     description: "This App allows users to browse through popular and vegetarian recipes. In addition, they can search for a recipe and open a list of recipes based on the recipe category. Instructions and ingredients will be displayed to the user for each recipe.",
     image: 'images/recipe3.jpg',
     tags: ['React'],
     source: 'https://github.com/pjfooeve09/delicious-recipe',
-    visit: 'https://www.youtube.com/watch?v=wUVeY8Rnl84&ab_channel=papar24',
+    visit: '',
     id: 1,
-  },
-  {
-    title: 'To Do List',
-    description: "This app allows users to create a todo list. Users can create a new todo list and then create, view, modify, and delete items in their list. Additionally, users can filter items by the list name. This app is written with a Rails API backend and Javascript frontend.",
-    image: 'images/todolist.jpg',
-    tags: ['Ruby on Rails (backend)', 'JavaScript (frontend)'],
-    source: 'https://github.com/pjfooeve09/todolist-frontend',
-    visit: 'https://www.youtube.com/watch?v=ZlrfOMCA_sU&ab_channel=ParhamJavadi',
-    id: 2,
   },
   {
     title: 'Superhero World',
@@ -24,7 +23,7 @@ export const projects = [
     image: 'images/superhero.jpg',
     tags: ['Ruby on Rails'],
     source: 'https://github.com/pjfooeve09/superhero_world',
-    visit: 'https://www.youtube.com/watch?v=PUwQas-QoHI&ab_channel=papar24',
+    visit: '',
     id: 3,
   },
   // {
@@ -38,7 +37,7 @@ export const projects = [
   // },
   {
     title: 'Task Tracker',
-    description: "This Vue.js app allows users to create, view, edit, and delete a task. It is similar to the To Do List app, but contains additional features such as a reminder.",
+    description: "This Vue.js app allows users to create, view, edit, and delete a task, and set a reminder for each task.",
     image: 'images/tasktracker.jpg',
     tags: ['Vue.js', 'HTML', 'CSS'],
     source: 'https://github.com/pjfooeve09/task-tracker',
