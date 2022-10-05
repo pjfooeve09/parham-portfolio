@@ -12,7 +12,7 @@ const Hero = (props) => (
           Howdy,
         </SectionTitle>
         <SectionText>
-          My name is Parham Javadi and I am a Full Stack Software Developer.
+          My name is Parham Javadi. Welcome to my portfolio!
         </SectionText>
         <Link href="https://drive.google.com/file/d/1qYqMsLfyTH6-BKE2rBNakSXRS3IEqmsq/view?usp=sharing" target="_blank"> 
           <h1>My Resume</h1>

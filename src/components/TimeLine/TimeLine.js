@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am a software engineer intern with experience in the industry. I obtained my bachelor's in Psychology at California State University, Fullerton, and then went on to obtain my master's in Health Informatics at Loma Linda University. I got into coding because I have always had the "curosity" mindset, more specifically in how technology works. As an adolescent, I developed a passion in math and design, and as I grew older, I realized that web/applicaiton development is the perfect fit. My hobbies include DJing (yes! I am a professional DJ and I mix music for fun), playing soccer, hiking, and just spending time with friends and family.</SectionText>
+      I obtained my bachelor's in Psychology at California State University, Fullerton, and then went on to obtain my master's in Health Informatics at Loma Linda University. I have worked in the healthcare industry as a medical records field technician and I also worked as a software engineer intern; therefore, I have the ability to carry out tasks associated with both technical and soft skills.  My hobbies include DJing (yes! I am a professional DJ and I mix music for fun), playing soccer, hiking, and just spending time with friends and family.</SectionText>
       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (

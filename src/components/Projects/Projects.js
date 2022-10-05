@@ -3,20 +3,19 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { nonCodingProjects } from '../../constants/constants';
 
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>PROJECTS</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
             <Img src={p.image} />
-
             <HeaderThree title={p.title}>{p.title}</HeaderThree>
             <Hr />
-
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
               <TitleContent>Tech Stack</TitleContent>
@@ -28,8 +27,28 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-           
               <ExternalLinks href={p.source}>Source Code</ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        );
+      })}
+    </GridContainer>
+  
+
+    <SectionTitle main>BEYOND CODING PROJECTS</SectionTitle>
+      <GridContainer>
+      {nonCodingProjects.map((p, i) => {
+        return (
+          <BlogCard key={i}>
+            <HeaderThree title={p.title}>{p.title}</HeaderThree>
+            <Hr />
+            <CardInfo className="card-info">{p.description}</CardInfo>
+            <div>
+              <TitleContent>Tech Stack</TitleContent>
+              <Hr />
+            </div>
+            <UtilityList>
+              <ExternalLinks href={p.source}>View Project</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );

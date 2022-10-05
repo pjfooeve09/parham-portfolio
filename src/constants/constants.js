@@ -37,7 +37,7 @@ export const projects = [
   // },
   {
     title: 'Task Tracker',
-    description: "This Vue.js app allows users to create, view, edit, and delete a task, and set a reminder for each task.",
+    description: "This Vue.js app allows users to to perform all the CRUD actions. This includes creating, viewing, editing, and deleting a task. In addition, users can set a reminder on each task. Each reminder would display a green banner.",
     image: 'images/tasktracker.jpg',
     tags: ['Vue.js', 'HTML', 'CSS'],
     source: 'https://github.com/pjfooeve09/task-tracker',
@@ -54,3 +54,26 @@ export const TimeLineData = [
   { year: 2020, text: 'Got a scholarship from the Delhi government.', },
   { year: 2021, text: 'Still trying to figure out this weird year.', },
 ];
+
+export const nonCodingProjects = [
+  {
+    title: "Apple's Personal Health Record Application (mockup)",
+    description: "This project focuses on the implementation of Apple’s Personal Health Records Application.",
+    source: "https://docs.google.com/document/d/1Pt33RFH8ju2e_PFMuHWjuUmDZGM72NJe/edit"
+  },
+  {
+    title: "Lean Six Sigma Project (reducing patient wait time)",
+    description: "This project aims to reduce hospital emergency department wait times through various methodologies.",
+    source: "https://docs.google.com/document/d/1ck3nT5A55_WV6j3hePd_wX0RycDS9pdG/edit"
+  },
+  {
+    title: "Business Marketing Plan",
+    description: "A marketing business plan for a small business. Its aim is to improve the site's ranking (SEO) and Google AdWords.",
+    source: "https://drive.google.com/file/d/1bXPrA329aIw7V8ORHHeFqzxTKntshRXs/view"
+  },
+  {
+    title: "User Interface Mockup",
+    description: "The application, MyLab, will allow patients to view other diagnostic test results done at the clinic or hospital.",
+    source: "https://docs.google.com/document/d/1t5XlCItUyp2MDO80LwNsePlSLBOTFYIJ/edit"
+  },
+]
