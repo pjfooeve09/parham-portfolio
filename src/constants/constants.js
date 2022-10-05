@@ -21,7 +21,7 @@ export const projects = [
     title: 'Superhero World',
     description: 'This MVC Rails app allows users to create an account and login (as well as login with Facebook). The user can then perform all the CRUD actions on a team with superheroes, and display the team with the most superheroes.',
     image: 'images/superhero.jpg',
-    tags: ['Ruby on Rails'],
+    tags: ['Ruby on Rails', 'SQL'],
     source: 'https://github.com/pjfooeve09/superhero_world',
     visit: '',
     id: 3,
@@ -37,7 +37,7 @@ export const projects = [
   // },
   {
     title: 'Task Tracker',
-    description: "This Vue.js app allows users to to perform all the CRUD actions. This includes creating, viewing, editing, and deleting a task. In addition, users can set a reminder on each task. Each reminder would display a green banner.",
+    description: "This Vue.js app allows users to keep track of their tasks. This includes creating a task and then setting a day and time. In addition, users can set a reminder on each task. Each reminder would display a green banner.",
     image: 'images/tasktracker.jpg',
     tags: ['Vue.js', 'HTML', 'CSS'],
     source: 'https://github.com/pjfooeve09/task-tracker',
